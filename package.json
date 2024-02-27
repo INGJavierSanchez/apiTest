@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-analisis-ventas",
+  "version": "1.0.0",
+  "description": "Proyecto para el análisis de ventas de IPCOM",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "chai-http": "^4.3.0",
+    "eslint": "^8.12.0",
+    "jest": "^28.1.1",
+    "jest-cli": "^28.1.1",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.3.4"
+  }
+}
